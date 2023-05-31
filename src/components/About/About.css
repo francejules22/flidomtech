@@ -1,0 +1,248 @@
+
+.__about-container{
+    width: 100%;
+    height: 70rem;
+    background-color: var(--primary-bg);
+}
+
+
+.__about-content{
+    position: relative;
+    padding: 5rem 10rem 0 0;
+    font-family: 'Bruno Ace', sans-serif;
+}
+
+.__about-content h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--secondary);
+}
+
+.__about-content h2{
+    font-size: 80px;
+    font-weight: 700;
+    color: var(--secondary);
+    margin-top: 10px;
+}
+
+.__about-content span{
+    color: var(--light-white);
+}
+
+.__about-content p{
+    font-size: 18px;
+    color: var(--light-gray);
+    margin-top: 20px;
+}
+
+.__about-image{
+    position: relative;
+    margin: 5rem 0 0 10rem;
+}
+
+.__about-button{
+    position: relative;
+    margin: 80px 0 0 -20px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.about-btn{
+    position: relative;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-family: "Bruno Ace", sans-serif;
+    margin: 0px 25px 15px;
+    min-width: 50px;
+}
+
+
+.about-btn span{
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 20px;
+    transition: .3s;
+}
+
+
+.btn-1::before {
+    background-color: var(--secondary);
+    transition: .3s ease-out;
+}
+
+.btn-1 span{
+    color: var(--primary-bg);
+    border: 1px solid var(--secondary);
+    transition: .2s .1s;
+}
+
+.btn-1 span:hover{
+    color: var(--secondary);
+    transition: .2s .1s;
+}
+
+:active, :hover, :focus{
+    outline: 0 !important;
+    outline-offset: 0;
+}
+
+
+::before, 
+::after{
+    position: absolute;
+    content: "";
+}
+
+.about-btn.hover-filled-slide-left::before{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.about-btn.hover-filled-slide-left:hover::before{
+    width: 0%;
+}
+
+
+@media screen and (max-width: 1200px){
+    .__about-container{
+        height: 60rem;
+    }
+    .__about-image{
+        margin: 1rem 0 0 1rem;
+    }
+    .__about-image img{
+        width: 90%;
+        height: 90%;
+    }
+    .__about-content{
+        padding: 1rem 1rem 0 0;
+    }
+    .__about-content h2{
+        font-size: 50px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .__about-container{
+        height: 50rem;
+    }
+    .__about-content h1{
+        font-size: 24px;
+    }
+    .__about-content h2{
+        font-size: 40px;
+    }
+    .__about-button{
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .__about-container{
+        height: 40rem;
+    }
+    .__about-content h1{
+        font-size: 16px;
+    }
+    .__about-content{
+        padding: 3rem 2px 0 0;
+    }
+    .__about-content h2{
+        font-size: 40px;
+    }
+    .__about-content p{
+        font-size: 12px;
+    }
+    .__about-button{
+        margin-top: 20px;
+    }
+    .about-btn span{
+        padding: 10px 12px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .__about-container{
+        height: 30rem;
+    }
+    .__about-content h1{
+        font-size: 12px;
+    }
+    .__about-content{
+        padding: 5rem 2px 0 0;
+    }
+    .__about-content h2{
+        font-size: 25px;
+    }
+    .__about-content p{
+        font-size: 10px;
+    }
+    .__about-button{
+        margin-top: 20px;
+    }
+    .about-btn span{
+        padding: 8px 8px;
+        font-size: 8px;
+    }
+}
+
+
+@media screen and (max-width: 390px){
+    .__about-content h1{
+        font-size: 10px;
+    }
+    .__about-content{
+        padding: 7rem 2px 0 0;
+    }
+    .__about-content h2{
+        font-size: 18px;
+    }
+    .__about-content p{
+        font-size: 8px;
+    }
+    .__about-button{
+        margin-top: 20px;
+    }
+    .about-btn span{
+        padding: 4px 8px;
+        font-size: 8px;
+    }
+    .__about-image{
+        margin: 1rem 0 0 1px;
+    }
+}
+
+
+@media screen and (max-width: 360px){
+    .__about-content{
+        padding: 6rem 2px 0 0;
+    }
+    .__about-content h2{
+        font-size: 16px;
+    }
+    .about-btn span{
+        padding: 4px 4px;
+        font-size:6px;
+    }
+}
+
