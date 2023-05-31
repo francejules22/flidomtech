@@ -1,20 +1,18 @@
 {
   "files": {
     "main.css": "/flidomtech/static/css/main.0537e905.css",
-    "main.js": "/flidomtech/static/js/main.27c59b11.js",
+    "main.js": "/flidomtech/static/js/main.67575de9.js",
     "static/media/remixicon.svg?t=1681573354175": "/flidomtech/static/media/remixicon.7b85b7f8453487681fc4.svg",
     "static/media/fitness.png": "/flidomtech/static/media/fitness.70969edec4df4bf67035.png",
-    "static/media/architecture.png": "/flidomtech/static/media/architecture.5f45ee9fedb8ad3a134d.png",
     "static/media/LouiePortfolio.png": "/flidomtech/static/media/LouiePortfolio.4e89c21997b9d677a451.png",
     "static/media/macs.png": "/flidomtech/static/media/macs.6a444b0036bf364e336c.png",
     "static/media/Graphic1.png": "/flidomtech/static/media/Graphic1.a0f25b3a95806325f67e.png",
     "static/media/denz.png": "/flidomtech/static/media/denz.43cdc6e4e55297a28e65.png",
-    "static/media/Graphic2.png": "/flidomtech/static/media/Graphic2.1e3bd8bfbe0f9c0c9f59.png",
-    "static/media/Graphic3.png": "/flidomtech/static/media/Graphic3.b19abac27bf3456cd0fc.png",
     "static/media/FrancePortfolio.png": "/flidomtech/static/media/FrancePortfolio.92ab24ca0f82da8995a2.png",
     "static/media/louie.png": "/flidomtech/static/media/louie.53cb7802dfc30a79fc89.png",
     "static/media/remixicon.eot?t=1681573354175": "/flidomtech/static/media/remixicon.ae7015155af44fd22375.eot",
     "static/media/remixicon.ttf?t=1681573354175": "/flidomtech/static/media/remixicon.8df75b42f93ef0e1f8aa.ttf",
+    "static/media/analytics.png": "/flidomtech/static/media/analytics.04ded870433145f05bd0.png",
     "static/media/DiabetesImg.png": "/flidomtech/static/media/DiabetesImg.7d4429f4138db8d7c327.png",
     "static/media/remixicon.woff?t=1681573354175": "/flidomtech/static/media/remixicon.56b6495e17f23a23803a.woff",
     "static/media/francepic.jpg": "/flidomtech/static/media/francepic.8d96a1c7a1128874a2df.jpg",
@@ -27,10 +25,10 @@
     "static/media/FlidomTechLogo.png": "/flidomtech/static/media/FlidomTechLogo.d53cdc5c9d93566c0a01.png",
     "index.html": "/flidomtech/index.html",
     "main.0537e905.css.map": "/flidomtech/static/css/main.0537e905.css.map",
-    "main.27c59b11.js.map": "/flidomtech/static/js/main.27c59b11.js.map"
+    "main.67575de9.js.map": "/flidomtech/static/js/main.67575de9.js.map"
   },
   "entrypoints": [
     "static/css/main.0537e905.css",
-    "static/js/main.27c59b11.js"
+    "static/js/main.67575de9.js"
   ]
 }
